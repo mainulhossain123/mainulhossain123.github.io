@@ -170,6 +170,13 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![Pingdom](https://img.shields.io/badge/-Pingdom-FFF000?style=flat&logo=pingdom&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
+### AI & Automation
+![Prompt Engineering](https://img.shields.io/badge/-Prompt_Engineering-10A37F?style=flat&logo=openai&logoColor=white)
+![AI Workflow Automation](https://img.shields.io/badge/-AI_Workflow_Automation-FF6F00?style=flat&logo=anthropic&logoColor=white)
+![LLM Integration](https://img.shields.io/badge/-LLM_Integration-412991?style=flat&logo=openai&logoColor=white)
+![Agent Architecture](https://img.shields.io/badge/-Agent_Architecture-7C3AED?style=flat)
+![Tool/Function Design](https://img.shields.io/badge/-Tool_Function_Design-EC4899?style=flat)
+
 ---
 
 ## Projects
