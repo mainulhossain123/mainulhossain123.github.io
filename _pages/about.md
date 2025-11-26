@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello!, I’m Mainul, a Site Reliability Engineer focused on building dependable, scalable systems and simplifying complex cloud operations.
+Hello! I’m Mainul, a Site Reliability Engineer focused on building dependable, scalable systems and simplifying complex cloud operations.
 
 Currently, I work at [Optimizely](https://www.optimizely.com/) on the **Reliability/Platform Engineering** team, helping to implement and maintain cloud-native SaaS solutions for fast, scalable, and resilient infrastructure. Previously, I worked in the **Strategic Support Solutions** team within Technical Support Services, optimizing customer Azure environments and developing automation to reduce operational toil.
 
@@ -39,8 +39,9 @@ Here are a few areas I focus on:
 - **Incident Response**: Managing high-pressure support environments and incident management
 - **API Development**: Building Python-based automation processes and cost-saving initiatives
 - **System Administration**: Windows Server, SQL Server, IIS, and Linux-based systems
+- **AI Agents & LLMs**: Prompt engineering, agent architecture, and building custom tools (function/tool plugins) for agent use
 
-Outside of work, I explore **machine learning**, **deep learning**, and **AI** solutions, with hands-on projects in cybersecurity and reliability infrastructure automation. I value cross-team collaboration, adaptability, and operational excellence across cloud and hybrid environments.
+Outside of work, I explore **machine learning**, **deep learning**, and **AI** solutions, with hands-on projects in cybersecurity and reliability infrastructure automation — including agent-driven workflows. I value cross-team collaboration, adaptability, and operational excellence across cloud and hybrid environments.
 
 You can find my automation and infrastructure projects on [GitHub](https://github.com/mainulhossain123), including tools for Pingdom monitoring, Cloudflare API integrations, and .NET Core diagnostics.
 
@@ -51,12 +52,13 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ### Site Reliability Engineer
 #### [Optimizely Inc.](https://www.optimizely.com/)
 **Part of Reliability/Platform Engineering Team**  
-*Jun 2025 - Present (3 mos +)*
-
+*Jun 2025 - Present*
+- Created an AI-powered infrastructure monitoring tool that analyzes web application performance to predict Black Friday readiness; includes PowerShell automation for telemetry collection and AI-driven, actionable scaling recommendations.
+- Implemented a Terraform-managed Datadog workflow that auto-restarts the Datadog agent on Elasticsearch nodes via Azure RunCommand, with VM/VMSS detection, auditable success/failure events, and interval re-notification escalation to on-call engineers.
 - Contributed to maintaining the reliability, scalability, and performance of Optimizely's cloud-native SaaS infrastructure
 - Implemented Azure automation for .NET Core proactive monitoring and diagnostics, enhancing system observability and reducing incident response time.
-- Implemented well scoped improvements and automation tasks within internal systems, including CI/CD enhancements and containerized workflow optimization
-- Actively participated in incident response processes and change management, following SRE principles to ensure platform stability
+- Implemented well-scoped improvements and automation within internal systems, including CI/CD enhancements and containerized workflow optimization.
+- Part of on-call support, resolving production issues and improving service reliability.
 - Developed and maintained internal documentation and monitoring workflows aligned with departmental standards
 - Collaborated across teams to support service delivery and application lifecycle operations
 - Continued to expand knowledge in system lifecycle management, infrastructure-as-code practices, and secure deployment workflows in AWS and Azure
@@ -140,9 +142,11 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat&logo=rubyonrails&logoColor=white)
 
 ### Databases
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Azure Databases](https://img.shields.io/badge/-Azure_Databases-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Azure Blob Storage](https://img.shields.io/badge/-Azure_Blob_Storage-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/-Amazon_S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
