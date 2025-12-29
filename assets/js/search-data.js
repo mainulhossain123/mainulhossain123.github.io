@@ -366,7 +366,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",},{id: "projects-infrastructure-self-healing-agent",
+          title: 'Infrastructure Self-Healing Agent',
+          description: "Auto-remediation bot that detects application failures, triggers automated recovery, and sends real-time incident notifications",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_infra_autofix_agent/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
