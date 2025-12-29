@@ -110,17 +110,34 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 
 ---
 
-## Education
+## Projects
 
-### B.Sc. in Computer Science
-#### [BRAC University](https://www.bracu.ac.bd/)
-**Dhaka, Bangladesh**  
+### [Infrastructure Self-Healing Agent](https://github.com/mainulhossain123/infra-autofix-agent)
+**Auto-Remediation Bot for Containerized Services**
+- An infrastructure-focused auto-remediation bot that detects application failures, triggers automated recovery actions, and sends real-time incident notifications
+- Monitors services for crashes, high error rates, CPU spikes, and latency issues with intelligent circuit breaker logic to prevent restart loops
+- Features Flask REST API, React dashboard with WebSocket updates, PostgreSQL incident logging, and Prometheus metrics integration
+- **Technologies:** Python, Flask, React, PostgreSQL, Docker, Kubernetes, Prometheus, WebSocket
 
-- **Research Work:** Focus on machine learning, deep learning, and AI
-- **Relevant Coursework:** Data Structures, Artificial Intelligence, Algorithms, Database Systems, Software Engineering, Computer Networks
-- **Publications:**
-  - A Biofeedback controlled personalized Virtual Reality (VR) based Exercise game - KUI 2021: 19th ACM Conference Culture and Computer Science
-  - Early Stage Detection and Classification of Colon Cancer using Deep Learning and AI on Histopathological Images (Awaiting Publication)
+### [Pingdom API hostname check](https://github.com/mainulhossain123/pingdom-hostname-check)
+**Monitoring Automation Tool**
+- A simple Plug and Go Python Script for running multiple sites Pingdom Checks concurrently and generating the output to a CSV file
+- **Technologies:** Python, Pingdom API, Concurrent Processing
+
+### [Cloudflare DNS Extraction using Docker container](https://github.com/mainulhossain123/cf_dns_extract)
+**API-based Data Extraction Tool**
+- Contains multiple Python scripts for various API based Data Extraction from Cloudflare zones such as extracting WAF Bypass rules for Cloudflare zones along with Origin Server CNAME information and generating output to a CSV file
+- **Technologies:** Python, Docker, Cloudflare API, CSV Processing
+
+### [.NET CORE master monitoring](https://github.com/mainulhossain123/master_monitoring)
+**Diagnostic and Troubleshooting Tool**
+- A master/modular shell script designed to call various diagnostic tools for troubleshooting Linux based .NET Core environments
+- **Technologies:** Shell Scripting, .NET Core, Linux Diagnostics
+
+### [Cloudflare API Integration Scripts](https://github.com/mainulhossain123/cloudflare-zones-WAF-extract)
+**DNS Management and API Integration**
+- Python script is designed to extract DNS records from Cloudflare zones and save the extracted data into a CSV file
+- **Technologies:** Python, Cloudflare API, DNS Management
 
 ---
 
@@ -179,27 +196,17 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 
 ---
 
-## Projects
+## Education
 
-### [Pingdom API hostname check](https://github.com/mainulhossain123/pingdom-hostname-check)
-**Monitoring Automation Tool**
-- A simple Plug and Go Python Script for running multiple sites Pingdom Checks concurrently and generating the output to a CSV file
-- **Technologies:** Python, Pingdom API, Concurrent Processing
+### B.Sc. in Computer Science
+#### [BRAC University](https://www.bracu.ac.bd/)
+**Dhaka, Bangladesh**  
 
-### [Cloudflare DNS Extraction using Docker container](https://github.com/mainulhossain123/cf_dns_extract)
-**API-based Data Extraction Tool**
-- Contains multiple Python scripts for various API based Data Extraction from Cloudflare zones such as extracting WAF Bypass rules for Cloudflare zones along with Origin Server CNAME information and generating output to a CSV file
-- **Technologies:** Python, Docker, Cloudflare API, CSV Processing
-
-### [.NET CORE master monitoring](https://github.com/mainulhossain123/master_monitoring)
-**Diagnostic and Troubleshooting Tool**
-- A master/modular shell script designed to call various diagnostic tools for troubleshooting Linux based .NET Core environments
-- **Technologies:** Shell Scripting, .NET Core, Linux Diagnostics
-
-### [Cloudflare API Integration Scripts](https://github.com/mainulhossain123/cloudflare-zones-WAF-extract)
-**DNS Management and API Integration**
-- Python script is designed to extract DNS records from Cloudflare zones and save the extracted data into a CSV file
-- **Technologies:** Python, Cloudflare API, DNS Management
+- **Research Work:** Focus on machine learning, deep learning, and AI
+- **Relevant Coursework:** Data Structures, Artificial Intelligence, Algorithms, Database Systems, Software Engineering, Computer Networks
+- **Publications:**
+  - A Biofeedback controlled personalized Virtual Reality (VR) based Exercise game - KUI 2021: 19th ACM Conference Culture and Computer Science
+  - Early Stage Detection and Classification of Colon Cancer using Deep Learning and AI on Histopathological Images (Awaiting Publication)
 
 ---
 
