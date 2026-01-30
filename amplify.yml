@@ -4,10 +4,11 @@ frontend:
     preBuild:
       commands:
         - gem install bundler
+        - bundle config set path 'vendor/bundle'
         - bundle install
     build:
       commands:
-        - bundle exec jekyll build
+        - JEKYLL_ENV=production bundle exec jekyll build
   artifacts:
     baseDirectory: _site
     files:
