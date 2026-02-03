@@ -2,7 +2,7 @@
 layout: page
 title: Infrastructure Self-Healing Agent
 description: AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)
-img: assets/img/template_error.jpg
+img: assets/img/12.jpg
 importance: 1
 category: work
 github: https://github.com/mainulhossain123/infra-autofix-agent
@@ -24,18 +24,21 @@ The Infrastructure Self-Healing Agent is a production-oriented auto-remediation 
 ## Key Features
 
 ### Intelligent Detection
+
 - **Crash Detection**: Automatically identifies service failures and container crashes
 - **Performance Monitoring**: Tracks CPU usage, memory consumption, and response latency
 - **Error Rate Analysis**: Monitors application error rates and anomalies
 - **Circuit Breaker**: Prevents remediation loops with configurable cooldown periods
 
 ### Automated Remediation
+
 - **Safe Container Restarts**: Performs automated recovery with rate limiting (max 3 restarts per 5 minutes)
 - **Incident Logging**: Stores all incidents and actions in PostgreSQL for audit trails
 - **Real-time Notifications**: WebSocket-based updates to React dashboard
 - **Manual Override**: API endpoints for manual intervention when needed
 
 ### AI/ML-Assisted Operations (Optional)
+
 - **Anomaly Detection**: Detects abnormal system behavior using Isolation Forest
 - **Time-Series Forecasting**: Predicts future metric trends and threshold breaches with Prophet
 - **Failure Prediction**: Estimates incident risk using LightGBM with feature contribution insights
@@ -43,6 +46,7 @@ The Infrastructure Self-Healing Agent is a production-oriented auto-remediation 
 - **Continuous Learning Loop**: Supports retraining workflows and storing model/analysis artifacts in the database
 
 ### Observability Stack
+
 - **Prometheus Integration**: Exposes metrics in Prometheus format for monitoring
 - **Real-time Dashboard**: React-based UI with live incident tracking
 - **API Access**: RESTful API for incident history and remediation management
@@ -75,7 +79,9 @@ Optional ML/AI components can be enabled via the project’s ML mode (Ollama + M
 ## Key Capabilities
 
 ### Configuration Management
+
 All thresholds and behaviors are configurable via environment variables:
+
 - Error rate threshold (default: 20%)
 - CPU threshold (default: 80%)
 - Maximum restarts per time window (default: 3 per 5 minutes)
@@ -85,24 +91,29 @@ All thresholds and behaviors are configurable via environment variables:
 ### API Endpoints
 
 **Health & Metrics**
+
 - `GET /health` - Service health check
 - `GET /metrics` - Prometheus-format metrics
 - `GET /api/metrics` - JSON metrics
 
 **Incident Management**
+
 - `GET /api/incidents` - List all incidents
 - `GET /api/incidents/{id}` - Get specific incident details
 
 **Remediation**
+
 - `GET /api/remediation/history` - Action history
 - `POST /api/remediation/manual` - Trigger manual remediation
 
 **Testing & Simulation**
+
 - `POST /api/crash` - Simulate service crash
 - `POST /api/spike/cpu` - Simulate CPU spike
 - `POST /api/spike/errors` - Simulate error spike
 
 **AI Assistant (ML mode)**
+
 - `POST /api/ml/chat` - Chat-style AI assistant for incident analysis and guidance
 
 ## Quick Start
@@ -142,6 +153,7 @@ docker compose up --build -d
 ## Documentation
 
 For detailed documentation, see:
+
 - [API Reference](https://github.com/mainulhossain123/infra-autofix-agent/blob/main/docs/API.md)
 - [Docker Commands](https://github.com/mainulhossain123/infra-autofix-agent/blob/main/docs/docker.md)
 - [Operations Guide](https://github.com/mainulhossain123/infra-autofix-agent/blob/main/docs/operations.md)

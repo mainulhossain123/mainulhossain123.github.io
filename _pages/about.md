@@ -34,6 +34,7 @@ Currently, I work at [Optimizely](https://www.optimizely.com/) on the **Reliabil
 I studied Computer Science at [BRAC University](https://www.bracu.ac.bd/). I work across **Microsoft Azure** and **AWS**, containerize with **Docker** and **Kubernetes**, and manage infrastructure as code. I primarily script in **Python**, with **Bash** and **Ruby** as needed.
 
 Here are a few areas I focus on:
+
 - **Cloud Infrastructure Management**: Extensive work with Microsoft Azure and AWS environments
 - **Automation & DevOps**: Developing CI/CD pipelines, containerized workflows, and automation scripts
 - **Incident Response**: Managing high-pressure support environments and incident management
@@ -50,9 +51,12 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ## Experience
 
 ### Site Reliability Engineer
+
 #### [Optimizely Inc.](https://www.optimizely.com/)
+
 **Part of Reliability/Platform Engineering Team**  
-*Jun 2025 - Present*
+_Jun 2025 - Present_
+
 - Created an AI-powered infrastructure monitoring tool that analyzes web application performance to predict Black Friday readiness; includes PowerShell automation for telemetry collection and AI-driven, actionable scaling recommendations.
 - Implemented a Terraform-managed Datadog workflow that auto-restarts the Datadog agent on Elasticsearch nodes via Azure RunCommand, with VM/VMSS detection, auditable success/failure events, and interval re-notification escalation to on-call engineers.
 - Contributed to maintaining the reliability, scalability, and performance of Optimizely's cloud-native SaaS infrastructure
@@ -65,9 +69,11 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 - **Skills:** ![](https://img.shields.io/badge/-SRE-FF6B6B?style=flat) ![](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white) ![](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white) ![](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 
 ### Managed Services Engineer
+
 #### [Optimizely Inc.](https://www.optimizely.com/)
+
 **Part of Strategic Support Solutions Team**  
-*Mar 2024 - Jun 2025 (1 yr 3 mos)*
+_Mar 2024 - Jun 2025 (1 yr 3 mos)_
 
 - Use of Docker/Kubernetes for deploying Python virtual environments for execution of python scripts for auditing and automation processes
 - Part of Service Optimization for customer Azure infrastructures for Black Friday Campaigns and Cost-Saving/Efficiency initiatives
@@ -84,9 +90,11 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 - **Skills:** ![](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![](https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white) ![](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white) ![](https://img.shields.io/badge/-KQL-00BCF2?style=flat) ![](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 
 ### Associate Managed Services Engineer
+
 #### [Optimizely Inc.](https://www.optimizely.com/)
+
 **Part of Incident Management Team**  
-*Sep 2022 - Mar 2024 (1 yr 6 mos)*
+_Sep 2022 - Mar 2024 (1 yr 6 mos)_
 
 - Played a crucial role in the high volume incident surges during high campaign windows such as Black Friday, Christmas, New years, for scaling and maintenance of Client web applications and Databases during high traffic windows
 - Managed and assigned workload during major outages and Cyberattacks on On-premises Datacenters as well crisis situations regarding Major Microsoft Region outages
@@ -97,9 +105,11 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 - **Skills:** ![](https://img.shields.io/badge/-Incident_Management-FF4444?style=flat) ![](https://img.shields.io/badge/-F5_Systems-0078D4?style=flat) ![](https://img.shields.io/badge/-SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![](https://img.shields.io/badge/-Azure_Admin-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
 
 ### Information Technology Officer
+
 #### [University Of Scholars](https://www.uos.edu.bd/)
+
 **Part of Information Technology Team**  
-*Mar 2022 - Sep 2022 (6 mos)*
+_Mar 2022 - Sep 2022 (6 mos)_
 
 - Built and maintained primary Database, Software Components, Front end web systems and back end server database systems for Inventory management using PHP, HTML, CSS, Bootstrap MySQL Database, XAMPP (Apache server) & Python
 - Responsible for deploying Organization wide Windows Server system for organization domain control and device monitoring along with server security and Client device IP configuration
@@ -113,29 +123,39 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ## Projects
 
 ### [Infrastructure Self-Healing Agent](https://github.com/mainulhossain123/infra-autofix-agent)
+
 **Auto-Remediation Bot for Containerized Services**
+
 - Production-oriented self-healing platform for containerized services: detects incidents, executes safe remediation, and provides a real-time dashboard
 - Optional AI/ML mode: anomaly detection + forecasting + failure prediction, plus local LLM (Ollama/Llama 3.2) for incident analysis and reporting
 - Full observability story with metrics/logs and alerting-friendly integrations
 - **Technologies:** Python, Flask, Flask-SocketIO, React (Vite), PostgreSQL, Docker Compose, Kubernetes (Helm/Kustomize), Prometheus, Grafana, Loki, scikit-learn, Prophet, LightGBM, Ollama
 
 ### [Pingdom API hostname check](https://github.com/mainulhossain123/pingdom-hostname-check)
+
 **Monitoring Automation Tool**
+
 - A simple Plug and Go Python Script for running multiple sites Pingdom Checks concurrently and generating the output to a CSV file
 - **Technologies:** Python, Pingdom API, Concurrent Processing
 
 ### [Cloudflare DNS Extraction using Docker container](https://github.com/mainulhossain123/cf_dns_extract)
+
 **API-based Data Extraction Tool**
+
 - Contains multiple Python scripts for various API based Data Extraction from Cloudflare zones such as extracting WAF Bypass rules for Cloudflare zones along with Origin Server CNAME information and generating output to a CSV file
 - **Technologies:** Python, Docker, Cloudflare API, CSV Processing
 
 ### [.NET CORE master monitoring](https://github.com/mainulhossain123/master_monitoring)
+
 **Diagnostic and Troubleshooting Tool**
+
 - A master/modular shell script designed to call various diagnostic tools for troubleshooting Linux based .NET Core environments
 - **Technologies:** Shell Scripting, .NET Core, Linux Diagnostics
 
 ### [Cloudflare API Integration Scripts](https://github.com/mainulhossain123/cloudflare-zones-WAF-extract)
+
 **DNS Management and API Integration**
+
 - Python script is designed to extract DNS records from Cloudflare zones and save the extracted data into a CSV file
 - **Technologies:** Python, Cloudflare API, DNS Management
 
@@ -144,6 +164,7 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ## Skills
 
 ### Programming Languages
+
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![KQL](https://img.shields.io/badge/-KQL-00BCF2?style=flat)
@@ -154,6 +175,7 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat&logo=c&logoColor=black)
 
 ### Frameworks
+
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET_Core-512BD4?style=flat&logo=.net&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
@@ -162,6 +184,7 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![Ruby on Rails](https://img.shields.io/badge/-Ruby_on_Rails-CC0000?style=flat&logo=rubyonrails&logoColor=white)
 
 ### Databases
+
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Azure Databases](https://img.shields.io/badge/-Azure_Databases-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
@@ -170,11 +193,13 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![Apache](https://img.shields.io/badge/-Apache-D22128?style=flat&logo=apache&logoColor=white)
 
 ### Operating Systems
+
 ![Windows](https://img.shields.io/badge/-Windows-0078D4?style=flat&logo=windows&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![MacOS](https://img.shields.io/badge/-MacOS-000000?style=flat&logo=apple&logoColor=white)
 
 ### Tools & Technologies
+
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
@@ -188,6 +213,7 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ![Cloudflare](https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 
 ### AI & Automation
+
 ![Prompt Engineering](https://img.shields.io/badge/-Prompt_Engineering-10A37F?style=flat&logo=openai&logoColor=white)
 ![AI Workflow Automation](https://img.shields.io/badge/-AI_Workflow_Automation-FF6F00?style=flat&logo=anthropic&logoColor=white)
 ![LLM Integration](https://img.shields.io/badge/-LLM_Integration-412991?style=flat&logo=openai&logoColor=white)
@@ -199,8 +225,10 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 ## Education
 
 ### B.Sc. in Computer Science
+
 #### [BRAC University](https://www.bracu.ac.bd/)
-**Dhaka, Bangladesh**  
+
+**Dhaka, Bangladesh**
 
 - **Research Work:** Focus on machine learning, deep learning, and AI
 - **Relevant Coursework:** Data Structures, Artificial Intelligence, Algorithms, Database Systems, Software Engineering, Computer Networks
@@ -212,23 +240,25 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 
 ## Certifications & Awards
 
-| Year | Achievement | Organization |
-|------|------------|--------------|
-| 2024 | Microsoft Certified: Azure Administrator Associate | Microsoft Corporation |
-|      | Credential ID: MS0995597094 | |
-| 2024 | Spot Award for "Never Stop Improving" | Optimizely |
-| 2023 | Spot Award for "Getting it done together" | Optimizely |
-| 2018 | Introduction to Programming Using Java | Top Up IT and ITES Foundation Project |
-|      | Credential ID: G047514 | LICT Project, ICT Division, Government of Bangladesh |
+| Year | Achievement                                        | Organization                                         |
+| ---- | -------------------------------------------------- | ---------------------------------------------------- |
+| 2024 | Microsoft Certified: Azure Administrator Associate | Microsoft Corporation                                |
+|      | Credential ID: MS0995597094                        |                                                      |
+| 2024 | Spot Award for "Never Stop Improving"              | Optimizely                                           |
+| 2023 | Spot Award for "Getting it done together"          | Optimizely                                           |
+| 2018 | Introduction to Programming Using Java             | Top Up IT and ITES Foundation Project                |
+|      | Credential ID: G047514                             | LICT Project, ICT Division, Government of Bangladesh |
 
 ---
 
 ## Publications
 
 ### 2021
+
 **A Biofeedback controlled personalized Virtual Reality (VR) based Exercise game**  
-*KUI 2021: 19th ACM Conference Culture and Computer Science – Physical und Virtual Spaces*
+_KUI 2021: 19th ACM Conference Culture and Computer Science – Physical und Virtual Spaces_
 
 ### Upcoming
+
 **Early Stage Detection and Classification of Colon Cancer using Deep Learning and AI on Histopathological Images**  
-*Awaiting Publication*
+_Awaiting Publication_

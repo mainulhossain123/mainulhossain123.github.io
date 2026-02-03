@@ -2,7 +2,7 @@
 layout: page
 title: Pingdom Hostname Check Automation
 description: Concurrent Pingdom API integration for bulk hostname availability checks with CSV export
-img: assets/img/template_error.jpg
+img: assets/img/7.jpg
 importance: 3
 category: work
 github: https://github.com/mainulhossain123/pingdom-hostname-check
@@ -15,16 +15,19 @@ A plug-and-play Python script that leverages Pingdom's API v3.1 to perform concu
 ## Key Features
 
 ### Concurrent API Processing
+
 - **Async HTTP Requests**: Uses `aiohttp` and `asyncio` for non-blocking concurrent API calls
 - **Bulk Operations**: Checks multiple hostnames simultaneously, dramatically reducing execution time
 - **CSV Export**: Automatically generates structured CSV output with check status, probe descriptions, and Pingdom check IDs
 
 ### Pingdom API Integration
+
 - **Bearer Token Authentication**: Secure API access using Pingdom API tokens
 - **Single Check Endpoint**: Leverages `/api/3.1/single` endpoint for targeted hostname validation
 - **Multi-Site Support**: Comma-separated hostname input for batch processing
 
 ### Production Features
+
 - **Error Handling**: Graceful failure handling with detailed error messages in output
 - **Response Parsing**: Extracts status, probe descriptions, status descriptions, and long-form diagnostics
 - **User-Friendly**: Interactive CLI prompts for hostname input
@@ -50,6 +53,7 @@ A plug-and-play Python script that leverages Pingdom's API v3.1 to perform concu
 ## Configuration
 
 Simple environment-based configuration:
+
 - **API Key**: Set via `api_key` variable (Pingdom Bearer token)
 - **Target URLs**: Interactive comma-separated input
 - **Output File**: Configurable CSV filename (default: `pingdom_results.csv`)
@@ -68,9 +72,9 @@ Enter the target URLs separated by commas: example.com, test.example.org, api.my
 
 ### Sample CSV Output
 
-| Check Name | Target URL | Status | Probe Description | Status Description | Long Status Description | Pingdom Check ID |
-|------------|------------|--------|-------------------|--------------------|-----------------------|------------------|
-| Example Site | example.com | up | OK | HTTP OK | 200 OK | 12345678 |
+| Check Name   | Target URL  | Status | Probe Description | Status Description | Long Status Description | Pingdom Check ID |
+| ------------ | ----------- | ------ | ----------------- | ------------------ | ----------------------- | ---------------- |
+| Example Site | example.com | up     | OK                | HTTP OK            | 200 OK                  | 12345678         |
 
 ## Results & Impact
 

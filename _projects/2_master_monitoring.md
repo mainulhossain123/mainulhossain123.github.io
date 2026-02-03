@@ -2,7 +2,7 @@
 layout: page
 title: .NET Core Master Monitoring Tool
 description: Comprehensive diagnostic and monitoring shell script suite for .NET Core applications on Linux Azure App Services
-img: assets/img/template_error.jpg
+img: assets/img/9.jpg
 importance: 2
 category: work
 github: https://github.com/mainulhossain123/master_monitoring
@@ -15,16 +15,19 @@ A production-ready master/modular shell script designed for comprehensive diagno
 ## Key Features
 
 ### Multi-Diagnostic Monitoring
+
 - **Thread Count Monitoring**: Tracks ThreadPool thread counts using `dotnet-counters` and triggers diagnostics when exceeding configurable thresholds
 - **Response Time Monitoring**: Monitors HTTP endpoint response times with configurable URL targets and latency thresholds
 - **Outbound Connection Monitoring**: Tracks SNAT connections and identifies connection exhaustion scenarios
 
 ### Automated Diagnostic Collection
+
 - **Memory Dumps**: Automatically captures process memory dumps using `dotnet-dump` when thresholds are breached
 - **Profiler Traces**: Collects 60-second profiler traces via `dotnet-trace` for performance analysis
 - **Azure Blob Upload**: Automatically uploads diagnostic artifacts to Azure Blob Storage with retry logic
 
 ### Production-Ready Features
+
 - **Circuit Breaker Pattern**: Lock files prevent duplicate diagnostic collection per instance
 - **Retry Logic**: Built-in retry mechanism (5 attempts) for Azure Blob uploads with exponential backoff
 - **Multi-Instance Support**: Instance-aware logging and artifact naming for multi-instance deployments
@@ -59,6 +62,7 @@ The tool consists of four main components:
 ## Configuration Options
 
 All monitoring thresholds and behaviors are configurable:
+
 - Thread count threshold (default: 100 threads)
 - HTTP response time threshold (default: 1000ms)
 - Outbound connection threshold (default: 100 connections)

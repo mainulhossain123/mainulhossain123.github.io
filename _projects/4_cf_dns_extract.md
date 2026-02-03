@@ -2,7 +2,7 @@
 layout: page
 title: Cloudflare DNS Records Export Tool
 description: Enterprise-grade DNS record extraction from Cloudflare with parallel processing and Docker support
-img: assets/img/template_error.jpg
+img: assets/img/5.jpg
 importance: 4
 category: work
 github: https://github.com/mainulhossain123/cf_dns_extract
@@ -15,18 +15,21 @@ A production-ready Python tool for extracting all DNS records from Cloudflare zo
 ## Key Features
 
 ### High-Performance DNS Extraction
+
 - **Parallel Zone Processing**: Uses `ThreadPoolExecutor` (5 workers) for concurrent DNS record fetching
 - **Pagination Support**: Handles large Cloudflare accounts with 100 zones per API page
 - **Account Filtering**: Scopes extraction to specific Cloudflare account names
 - **Comprehensive Record Types**: Exports A, AAAA, CNAME, MX, TXT, and all other DNS record types
 
 ### Enterprise-Ready Architecture
+
 - **Retry Logic**: Built-in 3-attempt retry mechanism for API resilience
 - **Session Reuse**: HTTP connection pooling via `requests.Session` for efficiency
 - **Docker-Compatible**: Default output to `/app` directory for containerized environments
 - **Environment-Driven Config**: API keys and settings via environment variables
 
 ### Structured CSV Output
+
 - **Timestamped Files**: Automatic filename generation with date stamps
 - **Structured Schema**: Zone Name, Hostname, DNS Type, DNS Value columns
 - **Customizable Output**: Configurable filename prefix and output directory
@@ -57,6 +60,7 @@ A production-ready Python tool for extracting all DNS records from Cloudflare zo
 ## Configuration
 
 Environment variables:
+
 - **API_KEY**: Cloudflare API token (Zone.Read + DNS.Read permissions required)
 - **ACCOUNT_NAME**: Cloudflare account name for zone filtering
 - **OUTPUT_FILENAME_PREFIX**: Custom prefix for CSV filename (e.g., `CF_DNS_Export`)
@@ -78,10 +82,10 @@ python CF_Zone_DNS_Extraction.py
 
 ### Sample CSV Output
 
-| Zone Name | Hostname | DNS Type | DNS Value |
-|-----------|----------|----------|-----------|
-| example.com | www.example.com | A | 192.0.2.1 |
-| example.com | mail.example.com | MX | mail.provider.com |
+| Zone Name   | Hostname         | DNS Type | DNS Value         |
+| ----------- | ---------------- | -------- | ----------------- |
+| example.com | www.example.com  | A        | 192.0.2.1         |
+| example.com | mail.example.com | MX       | mail.provider.com |
 
 ## Docker Deployment
 

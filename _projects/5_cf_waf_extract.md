@@ -2,7 +2,7 @@
 layout: page
 title: Cloudflare WAF Rules Extractor
 description: Automated extraction and filtering of Cloudflare Custom Firewall Rules with parallel processing
-img: assets/img/template_error.jpg
+img: assets/img/3.jpg
 importance: 5
 category: work
 github: https://github.com/mainulhossain123/cloudflare-zones-WAF-extract
@@ -15,18 +15,21 @@ An enterprise-grade Python tool for extracting and filtering Cloudflare Custom H
 ## Key Features
 
 ### Intelligent WAF Rule Extraction
+
 - **Action-Based Filtering**: Filter rules by action type (skip, block, challenge, etc.)
 - **Zone-Wide Scanning**: Processes all zones under a specified Cloudflare account
 - **Custom Firewall Rules**: Targets `http_request_firewall_custom` ruleset phase
 - **Detailed Rule Export**: Extracts rule ID, version, action, expression, description, last updated, and enabled status
 
 ### High-Performance Processing
+
 - **Parallel Zone Processing**: Uses `ThreadPoolExecutor` (10 workers) for concurrent rule fetching
 - **Retry Logic**: 3-attempt retry mechanism with exponential backoff
 - **Session Pooling**: HTTP connection reuse via `requests.Session`
 - **Pagination Support**: Handles large zone inventories (1000 zones per page)
 
 ### Enterprise Security Features
+
 - **Timestamped Output**: Automatic CSV filename with UTC date stamps
 - **Action Filtering**: Focus on specific rule actions (e.g., only "skip" rules for bypass analysis)
 - **Audit-Ready Output**: Structured CSV format for compliance and security reviews
@@ -59,6 +62,7 @@ An enterprise-grade Python tool for extracting and filtering Cloudflare Custom H
 ## Configuration
 
 Environment variables:
+
 - **API_KEY**: Cloudflare API token (Zone.Read + Zone Rulesets.Read permissions)
 - **ACCOUNT_NAME**: Cloudflare account name (default: 'DXP Customers')
 - **RULE_ACTION**: Filter by action type - 'skip', 'block', 'challenge', 'allow', etc. (default: 'skip')
@@ -79,9 +83,9 @@ python CF_Zones_WAF_Extract.py
 
 ### Sample CSV Output
 
-| Zone Name | Rule ID | Version | Action | Expression | Description | Last Updated | Enabled |
-|-----------|---------|---------|--------|------------|-------------|--------------|---------|
-| example.com | 82ab23... | 1 | skip | (cf.zone.name eq "example.com") | API bypass rule | 2025-01-15 | true |
+| Zone Name   | Rule ID   | Version | Action | Expression                      | Description     | Last Updated | Enabled |
+| ----------- | --------- | ------- | ------ | ------------------------------- | --------------- | ------------ | ------- |
+| example.com | 82ab23... | 1       | skip   | (cf.zone.name eq "example.com") | API bypass rule | 2025-01-15   | true    |
 
 ## Sample Output Logs
 
@@ -102,6 +106,7 @@ docker run -e API_KEY=$API_KEY \
 ## CI/CD Integration
 
 Ideal for scheduled security audits:
+
 - **CRON Jobs**: Daily/weekly WAF rule snapshots
 - **GitHub Actions**: Automated firewall policy reviews on merge requests
 - **Kubernetes CronJobs**: Periodic compliance reporting in Kubernetes clusters
