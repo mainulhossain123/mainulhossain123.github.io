@@ -114,10 +114,10 @@ You can find my automation and infrastructure projects on [GitHub](https://githu
 
 ### [Infrastructure Self-Healing Agent](https://github.com/mainulhossain123/infra-autofix-agent)
 **Auto-Remediation Bot for Containerized Services**
-- An infrastructure-focused auto-remediation bot that detects application failures, triggers automated recovery actions, and sends real-time incident notifications
-- Monitors services for crashes, high error rates, CPU spikes, and latency issues with intelligent circuit breaker logic to prevent restart loops
-- Features Flask REST API, React dashboard with WebSocket updates, PostgreSQL incident logging, and Prometheus metrics integration
-- **Technologies:** Python, Flask, React, PostgreSQL, Docker, Kubernetes, Prometheus, WebSocket
+- Production-oriented self-healing platform for containerized services: detects incidents, executes safe remediation, and provides a real-time dashboard
+- Optional AI/ML mode: anomaly detection + forecasting + failure prediction, plus local LLM (Ollama/Llama 3.2) for incident analysis and reporting
+- Full observability story with metrics/logs and alerting-friendly integrations
+- **Technologies:** Python, Flask, Flask-SocketIO, React (Vite), PostgreSQL, Docker Compose, Kubernetes (Helm/Kustomize), Prometheus, Grafana, Loki, scikit-learn, Prophet, LightGBM, Ollama
 
 ### [Pingdom API hostname check](https://github.com/mainulhossain123/pingdom-hostname-check)
 **Monitoring Automation Tool**
