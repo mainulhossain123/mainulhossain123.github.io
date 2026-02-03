@@ -2,7 +2,7 @@
 layout: page
 title: Cloudflare DNS Records Export Tool
 description: Enterprise-grade DNS record extraction from Cloudflare with parallel processing and Docker support
-img: assets/img/5.jpg
+img: assets/img/projects/cf-dns-extract.jpg
 importance: 4
 category: work
 github: https://github.com/mainulhossain123/cf_dns_extract

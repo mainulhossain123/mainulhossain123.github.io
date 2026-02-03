@@ -2,7 +2,7 @@
 layout: page
 title: Pingdom Hostname Check Automation
 description: Concurrent Pingdom API integration for bulk hostname availability checks with CSV export
-img: assets/img/7.jpg
+img: assets/img/projects/pingdom-hostname-check.jpg
 importance: 3
 category: work
 github: https://github.com/mainulhossain123/pingdom-hostname-check

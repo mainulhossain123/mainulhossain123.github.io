@@ -2,7 +2,7 @@
 layout: page
 title: .NET Core Master Monitoring Tool
 description: Comprehensive diagnostic and monitoring shell script suite for .NET Core applications on Linux Azure App Services
-img: assets/img/9.jpg
+img: assets/img/projects/master-monitoring.jpg
 importance: 2
 category: work
 github: https://github.com/mainulhossain123/master_monitoring
