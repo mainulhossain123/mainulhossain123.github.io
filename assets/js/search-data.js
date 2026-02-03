@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Open-source projects showcasing infrastructure automation, cloud tooling, and API integrations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "Curriculum Vitae - Site Reliability Engineer with expertise in cloud infrastructure, automation, and machine learning.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -368,54 +382,34 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-infrastructure-self-healing-agent",
           title: 'Infrastructure Self-Healing Agent',
-          description: "Auto-remediation bot that detects application failures, triggers automated recovery, and sends real-time incident notifications",
+          description: "AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_infra_autofix_agent/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-infrastructure-self-healing-agent",
+          title: 'Infrastructure Self-Healing Agent',
+          description: "AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_infra_autofix_agent/";
+            },},{id: "projects-net-core-master-monitoring-tool",
+          title: '.NET Core Master Monitoring Tool',
+          description: "Comprehensive diagnostic and monitoring shell script suite for .NET Core applications on Linux Azure App Services",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_master_monitoring/";
+            },},{id: "projects-pingdom-hostname-check-automation",
+          title: 'Pingdom Hostname Check Automation',
+          description: "Concurrent Pingdom API integration for bulk hostname availability checks with CSV export",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_pingdom_check/";
+            },},{id: "projects-cloudflare-dns-records-export-tool",
+          title: 'Cloudflare DNS Records Export Tool',
+          description: "Enterprise-grade DNS record extraction from Cloudflare with parallel processing and Docker support",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_cf_dns_extract/";
+            },},{id: "projects-cloudflare-waf-rules-extractor",
+          title: 'Cloudflare WAF Rules Extractor',
+          description: "Automated extraction and filtering of Cloudflare Custom Firewall Rules with parallel processing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/5_cf_waf_extract/";
             },},{
         id: 'social-email',
         title: 'email',
