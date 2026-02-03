@@ -384,11 +384,6 @@ ninja.data = [{
           title: 'Infrastructure Self-Healing Agent',
           description: "AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/10_infra_autofix_agent/";
-            },},{id: "projects-infrastructure-self-healing-agent",
-          title: 'Infrastructure Self-Healing Agent',
-          description: "AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/1_infra_autofix_agent/";
             },},{id: "projects-net-core-master-monitoring-tool",
           title: '.NET Core Master Monitoring Tool',
