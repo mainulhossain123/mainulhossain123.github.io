@@ -27,11 +27,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I’m Mainul, a Site Reliability Engineer focused on building dependable, scalable systems and simplifying complex cloud operations.
+Hello! I'm Mainul, a **Site Reliability Engineer** focused on building dependable, scalable systems and simplifying complex cloud operations.
 
-Currently, I work at [Optimizely](https://www.optimizely.com/) on the **Reliability/Platform Engineering** team, helping to implement and maintain cloud-native SaaS solutions for fast, scalable, and resilient infrastructure. Previously, I worked in the **Strategic Support Solutions** team within Technical Support Services, optimizing customer Azure environments and developing automation to reduce operational toil.
+Currently, I work at [Optimizely](https://www.optimizely.com/) on the **Reliability/Platform Engineering** team, helping to implement and maintain cloud-native SaaS solutions for fast, scalable, and resilient infrastructure.
+
+Previously, I worked in the **Strategic Support Solutions** team within Technical Support Services, optimizing customer Azure environments and developing automation to reduce operational toil.
 
 I studied Computer Science at [BRAC University](https://www.bracu.ac.bd/). I work across **Microsoft Azure** and **AWS**, containerize with **Docker** and **Kubernetes**, and manage infrastructure as code. I primarily script in **Python**, with **Bash** and **Ruby** as needed.
+
+
+
 
 Here are a few areas I focus on:
 
@@ -42,7 +47,9 @@ Here are a few areas I focus on:
 - **System Administration**: Windows Server, SQL Server, IIS, and Linux-based systems
 - **AI Agents & LLMs**: Prompt engineering, agent architecture, and building custom tools (function/tool plugins) for agent use
 
-Outside of work, I explore **machine learning**, **deep learning**, and **AI** solutions, with hands-on projects in cybersecurity and reliability infrastructure automation — including agent-driven workflows. I value cross-team collaboration, adaptability, and operational excellence across cloud and hybrid environments.
+Outside of work, I explore **machine learning**, **deep learning**, and **AI** solutions, with hands-on projects in cybersecurity and reliability infrastructure automation — including agent-driven workflows.
+
+I value cross-team collaboration, adaptability, and operational excellence across cloud and hybrid environments.
 
 You can find my automation and infrastructure projects on [GitHub](https://github.com/mainulhossain123), including tools for Pingdom monitoring, Cloudflare API integrations, and .NET Core diagnostics.
 
