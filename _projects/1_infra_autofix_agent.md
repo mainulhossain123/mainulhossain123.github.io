@@ -2,10 +2,11 @@
 layout: page
 title: Infrastructure Self-Healing Agent
 description: AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)
-img: assets/img/projects/infra-autofix-agent.jpg
+img: assets/img/projects/infra-autofix-agent.png
 importance: 1
 category: work
 github: https://github.com/mainulhossain123/infra-autofix-agent
+tags: [Python, Docker, Prometheus, Flask, Ollama]
 ---
 
 ## Overview
@@ -14,7 +15,7 @@ The Infrastructure Self-Healing Agent is a production-oriented auto-remediation 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/infra-autofix-agent.jpg" title="Infrastructure Monitoring" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/infra-autofix-agent.png" title="Infrastructure Monitoring" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

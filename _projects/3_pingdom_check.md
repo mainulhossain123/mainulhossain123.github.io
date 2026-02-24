@@ -6,6 +6,7 @@ img: assets/img/projects/pingdom-hostname-check.jpg
 importance: 3
 category: work
 github: https://github.com/mainulhossain123/pingdom-hostname-check
+tags: [Python, REST API, CSV]
 ---
 
 ## Overview

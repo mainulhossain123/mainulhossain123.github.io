@@ -6,6 +6,7 @@ img: assets/img/projects/master-monitoring.jpg
 importance: 2
 category: work
 github: https://github.com/mainulhossain123/master_monitoring
+tags: [Bash, .NET Core, Azure, Linux]
 ---
 
 ## Overview

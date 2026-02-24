@@ -2,10 +2,11 @@
 layout: page
 title: Cloudflare WAF Rules Extractor
 description: Automated extraction and filtering of Cloudflare Custom Firewall Rules with parallel processing
-img: assets/img/projects/cloudflare-waf-extract.jpg
+img: assets/img/projects/cloudflare-waf-extract.png
 importance: 5
 category: work
 github: https://github.com/mainulhossain123/cloudflare-zones-WAF-extract
+tags: [Python, Cloudflare API]
 ---
 
 ## Overview
