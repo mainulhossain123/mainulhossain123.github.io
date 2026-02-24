@@ -14,9 +14,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Proficient in Microsoft Azure and AWS environments, with hands-on experience in Docker, Kubernetes, and 
   infrastructure as code. Skilled in Python, Bash, and Ruby for automation and API integrations. Research 
   interests include machine learning, deep learning, and explainable AI (XAI).
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: ""
 keywords: site-reliability-engineering, cloud-infrastructure, azure, aws, docker, kubernetes, python, automation, machine-learning, explainable-ai
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
