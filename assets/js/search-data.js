@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "Open-source projects showcasing infrastructure automation, cloud tooling, and API integrations.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "Curriculum Vitae - Site Reliability Engineer with expertise in cloud infrastructure, automation, and machine learning.",
           section: "Navigation",
