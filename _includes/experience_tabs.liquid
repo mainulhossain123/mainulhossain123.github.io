@@ -1,0 +1,59 @@
+<div class="exp-tabs-wrapper">
+  <!-- Left: company / role tab buttons -->
+  <div class="exp-tab-list" role="tablist" aria-label="Experience">
+    {% for job in site.data.experience %}
+      <button
+        class="exp-tab-btn{% if forloop.first %} active{% endif %}"
+        role="tab"
+        aria-selected="{% if forloop.first %}true{% else %}false{% endif %}"
+        aria-controls="exp-{{ job.id }}"
+        data-target="exp-{{ job.id }}"
+        onclick="expTabSwitch(this)"
+        type="button"
+      >
+        {{ job.company }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <!-- Right: detail panels -->
+  <div class="exp-tab-content">
+    {% for job in site.data.experience %}
+      <div
+        class="exp-tab-panel{% if forloop.first %} active{% endif %}"
+        id="exp-{{ job.id }}"
+        role="tabpanel"
+      >
+        <h3 class="exp-role-title">
+          {{ job.title }}
+          <span class="exp-company-name">
+            @ <a href="{{ job.url }}" target="_blank" rel="noopener noreferrer">{{ job.company }}</a>
+          </span>
+        </h3>
+        <p class="exp-meta">{{ job.team }}&nbsp;&nbsp;·&nbsp;&nbsp;{{ job.duration }}</p>
+        <ul class="exp-bullets">
+          {% for bullet in job.bullets %}
+            <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  function expTabSwitch(btn) {
+    var wrapper = btn.closest('.exp-tabs-wrapper');
+    wrapper.querySelectorAll('.exp-tab-btn').forEach(function (b) {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
+    wrapper.querySelectorAll('.exp-tab-panel').forEach(function (p) {
+      p.classList.remove('active');
+    });
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
+    var target = document.getElementById(btn.getAttribute('data-target'));
+    if (target) target.classList.add('active');
+  }
+</script>

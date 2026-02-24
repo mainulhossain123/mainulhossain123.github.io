@@ -1,0 +1,51 @@
+- id: optimizely-sre
+  company: "Optimizely"
+  url: "https://www.optimizely.com/"
+  title: "Site Reliability Engineer"
+  team: "Reliability / Platform Engineering"
+  duration: "Jun 2025 – Present"
+  bullets:
+    - "Created an AI-powered infrastructure monitoring tool that analyses web application performance to predict Black Friday readiness; includes PowerShell automation for telemetry collection and AI-driven scaling recommendations."
+    - "Implemented a Terraform-managed Datadog workflow that auto-restarts the Datadog agent on Elasticsearch nodes via Azure RunCommand, with VM/VMSS detection, auditable success/failure events, and interval re-notification escalation to on-call engineers."
+    - "Implemented Azure automation for .NET Core proactive monitoring and diagnostics, enhancing system observability and reducing incident response time."
+    - "Enhanced CI/CD pipelines and containerised workflow optimisation within internal systems."
+    - "Part of on-call rotation, resolving production issues and improving service reliability."
+
+- id: optimizely-mse
+  company: "Optimizely"
+  url: "https://www.optimizely.com/"
+  title: "Managed Services Engineer"
+  team: "Strategic Support Solutions"
+  duration: "Mar 2024 – Jun 2025"
+  bullets:
+    - "Deployed Python environments via Docker/Kubernetes for execution of auditing and automation scripts."
+    - "Led service optimisation for customer Azure infrastructures ahead of Black Friday campaigns and cost-saving initiatives."
+    - "Developed Python and Bash scripts for API-integrated data extraction, .NET Core diagnostics, and workflow automation."
+    - "Designed Infrastructure as Code (IaC) using Terraform to automate Azure resource provisioning."
+    - "Enhanced CI/CD pipelines for microservices deployment using GitHub Actions, reducing deployment time by 30%."
+    - "Extracted and analysed Microsoft Azure KQL data for optimisation and troubleshooting of web applications."
+    - "Administered Azure-hosted client environments within the Optimizely DXP platform."
+
+- id: optimizely-amse
+  company: "Optimizely"
+  url: "https://www.optimizely.com/"
+  title: "Associate Managed Services Engineer"
+  team: "Incident Management"
+  duration: "Sep 2022 – Mar 2024"
+  bullets:
+    - "Key role during high-volume incident surges — Black Friday, Christmas, New Year — scaling and maintaining client web applications and databases."
+    - "Coordinated workload during major outages and cyberattacks on on-premises datacentres and Microsoft region outages."
+    - "First responder for client code and database deployments; restored SQL databases and web applications during production breaks."
+    - "Managed network configuration using F5 Systems for multi-cloud security and application delivery."
+    - "Served as Microsoft Azure Administrator for the Optimizely DXP platform, handling and troubleshooting all Azure-hosted client applications."
+
+- id: uos
+  company: "Univ. of Scholars"
+  url: "https://www.uos.edu.bd/"
+  title: "Information Technology Officer"
+  team: "Information Technology"
+  duration: "Mar 2022 – Sep 2022"
+  bullets:
+    - "Built and maintained database, frontend web systems, and backend server systems for inventory management using PHP, Python, MySQL, and Apache."
+    - "Deployed an organisation-wide Windows Server domain controller with device monitoring, server security, and client IP configuration."
+    - "Managed university database design, maintenance, and LAN/WAN network administration."

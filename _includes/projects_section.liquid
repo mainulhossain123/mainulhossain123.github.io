@@ -1,0 +1,64 @@
+{% assign sorted_projects = site.projects | sort: 'importance' %}
+<div class="projects-section-grid">
+  {% for project in sorted_projects %}
+    <div class="project-card-home">
+      <!-- Cover image or fallback folder icon -->
+      <div class="project-card-top">
+        {% if project.img %}
+          <img
+            class="project-card-cover"
+            src="{{ project.img | relative_url }}"
+            alt="{{ project.title }}"
+            loading="lazy"
+          />
+        {% else %}
+          <i class="fa-regular fa-folder-open project-card-folder"></i>
+        {% endif %}
+        <div class="project-card-icons">
+          {% if project.github %}
+            <a
+              href="{{ project.github }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="GitHub"
+              onclick="event.stopPropagation()"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          {% endif %}
+          {% if project.redirect %}
+            <a
+              href="{{ project.redirect }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Live"
+              onclick="event.stopPropagation()"
+            >
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      <a
+        class="project-card-link-wrap"
+        href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}"
+        {% if project.redirect %}
+          target="_blank" rel="noopener noreferrer"
+        {% endif %}
+      >
+        <div class="project-card-title">{{ project.title }}</div>
+        <p class="project-card-desc">{{ project.description }}</p>
+      </a>
+
+      {% if project.tags %}
+        <div class="project-card-tags">
+          {% for tag in project.tags -%}
+            {{- tag -}}
+            {%- unless forloop.last %}, {% endunless -%}
+          {%- endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
