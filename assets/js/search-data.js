@@ -373,9 +373,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-infrastructure-self-healing-agent",
-          title: 'Infrastructure Self-Healing Agent',
-          description: "AI-assisted auto-remediation platform for containerized services (detection + ML forecasting + LLM RCA + real-time dashboard + observability)",
+          section: "News",},{id: "projects-infrastructure-auto-remediation-platform",
+          title: 'Infrastructure Auto-Remediation Platform',
+          description: "AI-powered platform for automated infrastructure monitoring, incident detection, and self-healing — featuring Groq AI chat, local ML forecasting, AWS EC2 deployment, and a full observability stack",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_infra_autofix_agent/";
             },},{id: "projects-net-core-master-monitoring-tool",
