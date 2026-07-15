@@ -34,8 +34,8 @@ I studied Computer Science at [BRAC University](https://www.bracu.ac.bd/). I wor
 Here are a few technologies I've been working with:
 
 - Python &nbsp;·&nbsp; Bash &nbsp;·&nbsp; PowerShell &nbsp;·&nbsp; Ruby
-- Azure &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes
-- Terraform &nbsp;·&nbsp; Datadog &nbsp;·&nbsp; Prometheus &nbsp;·&nbsp; Grafana
-- LLM / Prompt Engineering &nbsp;·&nbsp; scikit-learn &nbsp;·&nbsp; Ollama
+- Azure &nbsp;·&nbsp; AWS &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes/AKS
+- Terraform &nbsp;·&nbsp; Azure Policy & Defender for Cloud &nbsp;·&nbsp; Datadog &nbsp;·&nbsp; Prometheus &nbsp;·&nbsp; Grafana
+- LLM / Prompt Engineering &nbsp;·&nbsp; scikit-learn &nbsp;·&nbsp; LightGBM &nbsp;·&nbsp; Prophet
 
-<p class="resume-link">Here is my resume &nbsp;→&nbsp; <a href="/assets/pdf/Mainul_Hossain_Resume.pdf" target="_blank" title="Download Resume PDF"><i class="fas fa-file-pdf fa-lg"></i></a></p>
+<p class="resume-link">Here is my resume &nbsp;→&nbsp; <a href="/assets/pdf/Mainul_Hossain_CV.pdf" target="_blank" title="Download Resume PDF"><i class="fas fa-file-pdf fa-lg"></i></a></p>

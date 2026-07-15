@@ -5,11 +5,15 @@
   team: "Reliability / Platform Engineering"
   duration: "Jun 2025 – Present"
   bullets:
-    - "Created an AI-powered infrastructure monitoring tool that analyses web application performance to predict Black Friday readiness; includes PowerShell automation for telemetry collection and AI-driven scaling recommendations."
-    - "Implemented a Terraform-managed Datadog workflow that auto-restarts the Datadog agent on Elasticsearch nodes via Azure RunCommand, with VM/VMSS detection, auditable success/failure events, and interval re-notification escalation to on-call engineers."
-    - "Implemented Azure automation for .NET Core proactive monitoring and diagnostics, enhancing system observability and reducing incident response time."
-    - "Enhanced CI/CD pipelines and containerised workflow optimisation within internal systems."
-    - "Part of on-call rotation, resolving production issues and improving service reliability."
+    - "Built an AI-powered infrastructure monitoring tool and Agent Prompt Optimization workflow forecasting Black Friday readiness, with automated PowerShell performance data collection cutting manual analysis time 30%."
+    - "Built a Terraform-managed Datadog Workflow that auto-restarts the Datadog agent on Elasticsearch via Azure RunCommand (VM/VMSS-aware, audited, on-call escalation), supporting a 99.99% SLA and cutting manual intervention 50%."
+    - "Led a tenant-wide Defender for Cloud/Advisor security remediation program: enabled EncryptionAtHost on Linux Elasticsearch VMs across 5 global regions via Octopus Deploy PowerShell runbooks, and rolled out automatic periodic update assessment across 200+ VMs."
+    - "Led a full AKS cluster upgrade (v1.32 to v1.33.x) across 48 clusters ahead of Azure's platform retirement deadline, resolving stuck node-upgrade failures via manual draining."
+    - "Audited 1,430 subscriptions via Azure Resource Graph to identify SSTP VPN Gateways ahead of retirement, confirming 7 gateways for migration; migrated Azure Function Apps from Linux Consumption to Flex Consumption ahead of the Sep 2028 deadline."
+    - "Refactored container registry authentication for two production services from hard-coded secrets to managed identity, removing a recurring downtime cause."
+    - "Automated Datadog health-report generation per DXP service with Cloudflare Zone integration; decommissioned 40+ unused Azure Function subnets and implemented Terraform-managed storage lifecycle policies for Event Hub data."
+    - "Supported on-call/support rotations resolving P1 incidents (Application Gateway, API gateways, Elasticsearch cluster health) and capacity planning reviews; implemented Azure automation for .NET Core proactive monitoring, cutting investigation time 70%."
+    - "Collaborated across SRE, Operations, and Engineering to define SLOs/SLIs and expand IaC and secure deployment practices across AWS and Azure."
 
 - id: optimizely-mse
   company: "Optimizely"
@@ -18,13 +22,13 @@
   team: "Strategic Support Solutions"
   duration: "Mar 2024 – Jun 2025"
   bullets:
-    - "Deployed Python environments via Docker/Kubernetes for execution of auditing and automation scripts."
-    - "Led service optimisation for customer Azure infrastructures ahead of Black Friday campaigns and cost-saving initiatives."
-    - "Developed Python and Bash scripts for API-integrated data extraction, .NET Core diagnostics, and workflow automation."
-    - "Designed Infrastructure as Code (IaC) using Terraform to automate Azure resource provisioning."
-    - "Enhanced CI/CD pipelines for microservices deployment using GitHub Actions, reducing deployment time by 30%."
-    - "Extracted and analysed Microsoft Azure KQL data for optimisation and troubleshooting of web applications."
-    - "Administered Azure-hosted client environments within the Optimizely DXP platform."
+    - "Deployed containerized Python automation using Docker/Kubernetes for auditing and cost-optimization processes."
+    - "Implemented infrastructure-as-code practices for Azure service optimization, reducing operational costs by 25%."
+    - "Developed Python and Bash automation for API integrations, data extraction, and troubleshooting workflows."
+    - "Enhanced CI/CD pipelines using GitHub Actions for microservices deployment, reducing deployment time by 30%."
+    - "Built monitoring and alerting solutions using Azure KQL and Datadog for distributed system observability."
+    - "Administered Linux-based systems and managed AWS/Cloudflare CDN services for high-availability architectures."
+    - "Maintained incident management processes and provided L2/L3 support for production system outages."
 
 - id: optimizely-amse
   company: "Optimizely"
@@ -33,11 +37,11 @@
   team: "Incident Management"
   duration: "Sep 2022 – Mar 2024"
   bullets:
-    - "Key role during high-volume incident surges — Black Friday, Christmas, New Year — scaling and maintaining client web applications and databases."
-    - "Coordinated workload during major outages and cyberattacks on on-premises datacentres and Microsoft region outages."
-    - "First responder for client code and database deployments; restored SQL databases and web applications during production breaks."
-    - "Managed network configuration using F5 Systems for multi-cloud security and application delivery."
-    - "Served as Microsoft Azure Administrator for the Optimizely DXP platform, handling and troubleshooting all Azure-hosted client applications."
+    - "Led incident response during high-volume traffic surges and major system outages, ensuring rapid detection and resolution."
+    - "Managed production deployments and database changes with zero-downtime deployment strategies."
+    - "Administered F5 load balancers and network security configurations for distributed systems."
+    - "Served as Microsoft Azure Administrator for the Optimizely DXP platform, maintaining 99.5% uptime across multiple regions."
+    - "Implemented standardized incident management procedures, improving escalation processes and documentation."
 
 - id: uos
   company: "Univ. of Scholars"
@@ -46,6 +50,6 @@
   team: "Information Technology"
   duration: "Mar 2022 – Sep 2022"
   bullets:
-    - "Built and maintained database, frontend web systems, and backend server systems for inventory management using PHP, Python, MySQL, and Apache."
-    - "Deployed an organisation-wide Windows Server domain controller with device monitoring, server security, and client IP configuration."
-    - "Managed university database design, maintenance, and LAN/WAN network administration."
+    - "Designed and maintained Linux/Windows server infrastructure for university database and web systems."
+    - "Deployed Windows Server domain controllers and implemented organization-wide monitoring solutions."
+    - "Managed LAN/WAN network architecture and IP device configurations for campus connectivity."

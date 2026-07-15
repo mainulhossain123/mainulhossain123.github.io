@@ -6,7 +6,7 @@
     "email": "hossainmainul83@gmail.com",
     "phone": "+8801795897030",
     "url": "https://mainulhossain123.github.io/",
-    "summary": "Solutions-driven Site Reliability Engineer focused on cloud infrastructure, automation, and observability. Experienced across Azure and AWS, containerized platforms (Docker/Kubernetes), and infrastructure-as-code. Builds AI-assisted reliability tooling (LLM + ML forecasting/anomaly detection) with real-time dashboards and end-to-end monitoring.",
+    "summary": "Versatile Site Reliability Engineer with a strong background in cloud infrastructure, automation, and security remediation across large multi-subscription Azure/AWS tenants. Hands-on expertise in Kubernetes/AKS lifecycle management, Terraform, Azure Policy & Defender for Cloud remediation, and scripting (Python, Bash, PowerShell, Ruby) for automation, monitoring, and API integrations. Builds AI-assisted reliability tooling (LLM + ML forecasting/anomaly detection) with real-time dashboards and end-to-end observability; research interests include ML, deep learning, and explainable AI (XAI).",
     "profiles": [
       {
         "network": "GitHub",
@@ -34,9 +34,11 @@
       "endDate": "",
       "summary": "Reliability/Platform Engineering",
       "highlights": [
-        "Created AI-assisted infrastructure monitoring and prompt-optimization workflows for performance readiness and scaling recommendations.",
-        "Implemented Terraform-managed Datadog Workflow automation to restart agents on Elasticsearch nodes via Azure RunCommand with auditable outcomes and escalation.",
-        "Built and maintained observability practices (monitoring, logging, tracing) and supported on-call operations for production reliability."
+        "Built an AI-powered infrastructure monitoring tool and Agent Prompt Optimization workflow forecasting Black Friday readiness, cutting manual analysis time 30%.",
+        "Built a Terraform-managed Datadog Workflow that auto-restarts the Datadog agent on Elasticsearch via Azure RunCommand, supporting a 99.99% SLA and cutting manual intervention 50%.",
+        "Led a tenant-wide Defender for Cloud/Advisor security remediation program across 5 global regions and 200+ VMs, and a full AKS cluster upgrade (v1.32 to v1.33.x) across 48 clusters.",
+        "Audited 1,430 subscriptions via Azure Resource Graph for SSTP VPN Gateway retirement and migrated Azure Function Apps to Flex Consumption ahead of the Sep 2028 deadline.",
+        "Supported on-call/support rotations resolving P1 incidents; implemented Azure automation for .NET Core proactive monitoring, cutting investigation time 70%."
       ]
     },
     {
@@ -47,9 +49,10 @@
       "endDate": "2025-06-01",
       "summary": "Strategic Support Solutions",
       "highlights": [
-        "Developed Python/Bash automation for API integrations, data extraction, and troubleshooting workflows.",
-        "Enhanced CI/CD pipelines with GitHub Actions and improved deployment efficiency.",
-        "Built monitoring and alerting solutions using Azure KQL and Datadog for distributed systems."
+        "Deployed containerized Python automation using Docker/Kubernetes for auditing and cost-optimization processes.",
+        "Implemented infrastructure-as-code practices for Azure service optimization, reducing operational costs by 25%.",
+        "Enhanced CI/CD pipelines using GitHub Actions for microservices deployment, reducing deployment time by 30%.",
+        "Built monitoring and alerting solutions using Azure KQL and Datadog; administered Linux systems and AWS/Cloudflare CDN services."
       ]
     },
     {
@@ -61,8 +64,8 @@
       "summary": "Incident Management",
       "highlights": [
         "Led incident response during high-volume traffic surges and major outages.",
-        "Managed production deployments and database changes with safe rollout practices.",
-        "Administered F5 load balancers and supported Azure administration for hosted customer workloads."
+        "Managed production deployments and database changes with zero-downtime deployment strategies.",
+        "Administered F5 load balancers and served as Azure Administrator for the DXP platform, maintaining 99.5% uptime across multiple regions."
       ]
     },
     {
@@ -149,7 +152,13 @@
       "name": "Containers & IaC",
       "level": "Advanced",
       "icon": "fa-solid fa-box",
-      "keywords": ["Docker", "Kubernetes", "Terraform", "Ansible"]
+      "keywords": ["Docker", "Kubernetes", "AKS lifecycle management", "Terraform", "Ansible"]
+    },
+    {
+      "name": "Cloud Security & Governance",
+      "level": "Advanced",
+      "icon": "fa-solid fa-shield-halved",
+      "keywords": ["Azure Policy", "Defender for Cloud & Advisor", "Guest Configuration", "Managed Identity", "Azure Resource Graph"]
     },
     {
       "name": "Programming",
